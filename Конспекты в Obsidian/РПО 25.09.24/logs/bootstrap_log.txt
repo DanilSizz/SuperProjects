@@ -1,0 +1,6 @@
+
+
+[2024-09-25 13:54:17] Startup - updater built Sep 17 2024 13:02:37
+[2024-09-25 13:54:17] Startup - Steam Client launched with: "Z:\green\РПО 25.09.24\steam.exe" 
+[2024-09-25 13:54:17] Windows 10.0.19045.0, 0, 2, 256, 1, 48 
+[2024-09-25 13:54:24] Shutdown
