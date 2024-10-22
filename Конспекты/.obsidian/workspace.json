@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "e8e67c25f1ee6155",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec19072ffdb25bd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "260e0f34746f4518",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Информатика/Гибкие методологии проектирования.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Гибкие методологии проектирования"
+            }
+          },
+          {
+            "id": "913b280bd4734faa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Обществознание/Рыночный спрос и предложение.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Рыночный спрос и предложение"
+            }
+          },
+          {
+            "id": "66aae668728a399e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Информатика/1.Гибкие методологии проектирования.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.Гибкие методологии проектирования"
+            }
+          },
+          {
+            "id": "c805187556c26ffc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "СПИСОК ЁПТА.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "СПИСОК ЁПТА"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4cc17434b3917dad",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7acf7020ec953c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39c7dc59f3179a12",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "be9b57d7e43fd0b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#ВзаимодействиеСоСписками",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "673d3072f0627c13",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "709baf5671dd0e0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1797b0f6eb2b524a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5d183df20547288",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Информатика/Turbo Pascal.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Turbo Pascal"
+            }
+          },
+          {
+            "id": "880988bbaee8f84d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Информатика/Turbo Pascal.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Turbo Pascal"
+            }
+          },
+          {
+            "id": "068ac45b40031d1f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "dffd183541beca91",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Информатика/Turbo Pascal.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Turbo Pascal"
+            }
+          },
+          {
+            "id": "a64f964e7e60094e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "obsidian-kanban:Создать новую доску": false
+    }
+  },
+  "active": "c805187556c26ffc",
+  "lastOpenFiles": [
+    "Кинематика.md",
+    "Динамика.md",
+    "Информатика/Списки (массивы).md",
+    "Информатика/Жёсткие диски.md",
+    "Информатика/1.Гибкие методологии проектирования.md",
+    "СПИСОК ЁПТА.md",
+    "Информатика/Turbo Pascal.md",
+    "Информатика/Средства описания языков программирования Метаязык. Бэкс-Нуар..md",
+    "Информатика/Колмогоровская сложность.md",
+    "Обществознание/Рыночный спрос и предложение.md",
+    "Обществознание/Экономическая сфера жизни людей.md",
+    "Обществознание/Человек как результат биологической и социальной эволюции.md",
+    "Обществознание/Познавательная деятельность человека.md",
+    "Обществознание/Общество.md",
+    "Обществознание/Без названия.md",
+    "Обществознание/Духовная культура личности общества.md",
+    "Обществознание/Мотивация деятельности.md",
+    "Обществознание/Наука и образование в современном мире.md",
+    "Картинки/жёсткий диск.png",
+    "Картинки",
+    "Pasted image 20240919112106.png",
+    "Без названия.canvas",
+    "Информатика/Устройство компьютера.md",
+    "Информатика/Оформление программной документации.md",
+    "Информатика/Накопители информации.md",
+    "Информатика/Индивидуальный проект.md",
+    "Люди/Андрей Николаевич Колмогоров.md",
+    "Интернет маркетинг/Яндекс метрика.md",
+    "Интернет маркетинг/LTV.md",
+    "Информатика/Система счисления.md",
+    "Обществознание",
+    "Интернет маркетинг",
+    "Без названия 1.canvas",
+    "Pasted image 20240919112018.png",
+    "Pasted image 20240919111954.png",
+    "Люди",
+    "Информатика",
+    "Без названия 3.canvas",
+    "Без названия 2.canvas"
+  ]
+}

@@ -1,7 +1,10 @@
 {
   "accentColor": "#000000",
-  "cssTheme": "Wasp",
+  "cssTheme": "Flexoki",
   "interfaceFontFamily": "Arial Black",
-  "textFontFamily": "Arial Black",
-  "theme": "obsidian"
+  "textFontFamily": "Impact,Arial Black,Segoe Script",
+  "theme": "moonstone",
+  "monospaceFontFamily": "Microsoft Himalaya",
+  "baseFontSize": 27,
+  "baseFontSizeAction": true
 }
