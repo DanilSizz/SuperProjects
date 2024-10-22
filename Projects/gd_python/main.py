@@ -107,7 +107,7 @@ def main():
                     if exit_button.collidepoint(event.pos):
                         new_section_active = False
         pygame.display.flip()
-        pygame.time.Clock().tick(60)
+        pygame.time.Clock().tick(90)
 
 def load_image(path):
     try:
@@ -125,18 +125,12 @@ def start_game(screen, fullscreen):
     level = generate_level()
 
     # Main game loop
-    while True:
-        # Handle events
-        for event in pygame.event.get():
+    for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
             elif event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_SPACE and cube.is_on_ground:
-                    cube.velocity = -6
-                    cube.is_on_ground = False
-                    cube.target_rotation_angle = (cube.target_rotation_angle - 90) % 360
-                elif event.key == pygame.K_F11:
+                if event.key == pygame.K_F11:
                     if fullscreen:
                         pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
                     else:
@@ -145,6 +139,16 @@ def start_game(screen, fullscreen):
                 elif event.key == pygame.K_ESCAPE:
                     pygame.quit()
                     sys.exit()
+                    
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_SPACE] and cube.is_on_ground:
+            cube.velocity = -6
+            cube.is_on_ground = False
+            cube.target_rotation_angle = (cube.target_rotation_angle - 90) % 360
+        if not keys[pygame.K_SPACE] and cube.velocity < 0:
+            cube.velocity += 0.5
+            if cube.velocity >= 0:
+                cube.velocity = 0
 
         # Update game logic
         cube.update_rotation()
@@ -179,7 +183,7 @@ def start_game(screen, fullscreen):
 
         # Update screen
         pygame.display.flip()
-        pygame.time.Clock().tick(90)
+        pygame.time.Clock().tick(120)
 
 def check_collisions(cube, spike):
     if (cube.x + 25 > spike.x and

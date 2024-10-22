@@ -2,8 +2,8 @@ import pygame
 import sys
 
 # Constants
-SCREEN_WIDTH = 800
-SCREEN_HEIGHT = 480
+SCREEN_WIDTH = 1024
+SCREEN_HEIGHT = 768
 
 # Classes for Level, Platforms, and Spikes
 class Level:
@@ -19,24 +19,25 @@ class Platform:
         self.height = height
 
 class Spike:
-    def __init__(self, x, y):
+    def __init__(self, x, y, width, height):
         self.x = x
         self.y = y
+        self.width = width
+        self.height = height
 
 def generate_level():
     platforms = [
         Platform(0, 480 - 20, 9000, 20),  # Ground
-        Platform(200, 400, 100, 20), 
-         Platform(216, 400, 70, 2000), # Platform 1
-        Platform(400, 350, 150, 20),  # Platform 2
-        Platform(421, 350, 110, 2000),
-        Platform(600, 300, 100, 20),  # Platform 3
-        Platform(610, 300, 80, 2000),
+        Platform(2950, 420, 50, 50),
+        Platform(3150, 360, 50, 100),
+        Platform(3350, 300, 50, 180),
     ]
     spikes = [
-        Spike(1100, 420),
-        Spike(1400, 420),
-        Spike(1700, 420),
+        Spike(1500, 420, 50, 50),
+        Spike(2100, 420, 50, 50),
+        Spike(2150, 420, 50, 50),
+        Spike(2850, 420, 50, 50),
+        Spike(2900, 420, 50, 50),
     ]
     return Level(platforms, spikes)
 
@@ -56,7 +57,7 @@ def draw_level(level, screen, camera):
     
     # Draw spikes
     for spike in level.spikes:
-        pygame.draw.rect(screen, (255, 0, 0), (spike.x - camera.x, spike.y - camera.y, 30, 30))  # Spikes as red squares
+        pygame.draw.rect(screen, (255, 0, 0), (spike.x - camera.x, spike.y - camera.y, spike.width, spike.height))  # Spikes as red squares
 
 def main():
     pygame.init()
@@ -74,18 +75,18 @@ def main():
 
         keys = pygame.key.get_pressed()
         if keys[pygame.K_LEFT]:
-            camera.move(-5, 0)
+            camera.move(-30, 0)
         if keys[pygame.K_RIGHT]:
-            camera.move(5, 0)
+            camera.move(30, 0)
         if keys[pygame.K_UP]:
-            camera.move(0, -5)
+            camera.move(0, -30)
         if keys[pygame.K_DOWN]:
-            camera.move(0, 5)
+            camera.move(0, 30)
 
         screen.fill((0, 0, 0))  # Clear screen with black
         draw_level(level, screen, camera)  # Draw the level
         pygame.display.flip()  # Update the display
-        pygame.time.Clock().tick(60)  # Limit to 60 FPS
+        pygame.time.Clock().tick(90)  # Limit to 60 FPS
 
 if __name__ == "__main__":
     main()

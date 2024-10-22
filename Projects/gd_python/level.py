@@ -8,26 +8,26 @@ class Level:
 def generate_level():
     platforms = [
         Platform(0, 480 - 20, 9000, 20),  # Ground
-        Platform(200, 400, 100, 20), 
-        Platform(216, 400, 70, 2000), # Platform 1
-        Platform(460, 350, 150, 20),  # Platform 2
-        Platform(481, 350, 110, 2000),
-        Platform(760, 300, 100, 20),  # Platform 3
-        Platform(770, 300, 80, 2000),
+        Platform(2950, 420, 50, 50),
+        Platform(3150, 360, 50, 100),
+        Platform(3350, 300, 50, 180),
     ]
     spikes = [
-        Spike(1100, 420),
-        Spike(1400, 420),
-        Spike(1700, 420),
-        Spike(2200, 420),
-        Spike(2200, 390),
+        Spike(1500, 420, 50, 50),
+        Spike(2100, 420, 50, 50),
+        Spike(2150, 420, 50, 50),
+        Spike(2850, 420, 50, 50),
+        Spike(2900, 420, 50, 50),
     ]
     return Level(platforms, spikes)
 
 class Spike:
-    def __init__(self, x, y):
+    def __init__(self, x, y, width, height):
         self.x = x
         self.y = y
+        self.width = width
+        self.height = height
+
 
 class Triangle:
     def __init__(self, x, y):
