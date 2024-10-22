@@ -1,18 +1,20 @@
 {
   "main": {
-    "id": "abfdb1499c8daba7",
+    "id": "529c5557777c2e5e",
     "type": "split",
     "children": [
       {
-        "id": "f8f441d4348272bd",
+        "id": "ab4d062a7cf47c41",
         "type": "tabs",
         "children": [
           {
-            "id": "0b97fe1555621490",
+            "id": "cf243b8f6b92af06",
             "type": "leaf",
             "state": {
               "type": "empty",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -21,44 +23,50 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f3e17d47b0e25a70",
+    "id": "8b76a4c20138ba03",
     "type": "split",
     "children": [
       {
-        "id": "443785d89d247ecb",
+        "id": "b787b82009b34478",
         "type": "tabs",
         "children": [
           {
-            "id": "194916b3141aedc9",
+            "id": "1356edfdec1fd3ef",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
-            "id": "a5665a39b70dc660",
+            "id": "453ddb6379965859",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Объектно-ориентированное_программирование_ОПП",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
-            "id": "a4326e97c6628228",
+            "id": "e9a044a3b010995a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -68,19 +76,30 @@
     "width": 300
   },
   "right": {
-    "id": "543c0c7f0624c067",
+    "id": "ea5100f8de7a2040",
     "type": "split",
     "children": [
       {
-        "id": "b752c53a388cb2b7",
+        "id": "251253b5e09c1370",
         "type": "tabs",
         "children": [
           {
-            "id": "e34a773382784e7e",
+            "id": "0573eb94c4fc98bb",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "d5b9a322fffeb179",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "введегие в специальность/turbo pascal/база.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,45 +107,48 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для база"
             }
           },
           {
-            "id": "9104946de300c25a",
+            "id": "24ade81fbf81b2ec",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "введегие в специальность/turbo pascal/база.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из база"
             }
           },
           {
-            "id": "7c83b1c429b0e166",
+            "id": "36079e16377e5e7d",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
-            "id": "539e3c1dd7acf38c",
+            "id": "db4da8282b5c5d9f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "fc64ff19dad07805",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
+              "state": {
+                "file": "введегие в специальность/turbo pascal/база.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура база"
             }
           }
         ]
@@ -138,24 +160,69 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Создать новую доску": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
-      "obsidian-kanban:Создать новую доску": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "194916b3141aedc9",
+  "active": "cf243b8f6b92af06",
   "lastOpenFiles": [
-    "Введение в специальность/Cписки в python.md",
-    "Введение в специальность",
-    "Введегие в специальность",
+    "Projects/gd_python/__pycache__/wave.cpython-312.pyc",
+    "Projects/gd_python/__pycache__/level.cpython-313.pyc",
+    "Projects/vishna_and_виселица/__pycache__/words.cpython-313.pyc",
+    "Projects/vishna_and_виселица/__pycache__/words.cpython-312.pyc",
+    "Projects/vishna_and_виселица/__pycache__/graphic.cpython-313.pyc",
+    "Projects/vishna_and_виселица/__pycache__/logic.cpython-312.pyc",
+    "Projects/vishna_and_виселица/__pycache__/game.cpython-312.pyc",
+    "Projects/vishna_and_виселица/__pycache__/graphic.cpython-312.pyc",
+    "Projects/gd_python/__pycache__/waves.cpython-312.pyc",
+    "Projects/gd_python/__pycache__/test.cpython-312.pyc",
+    "Projects/gd_python/__pycache__/physics.cpython-313.pyc",
+    "Projects/gd_python/menu_image.png",
+    "Projects/gd_python/menu_image.jpg",
+    "Projects/gd_python/logo_image.png",
+    "Projects/gd_python/cube_image.png",
+    "Без названия.md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Устройства_хранения_данных.md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Шина_расширения_(Expansion_Bus).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Центральный_процессор_(ЦП).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Северный_мост_(Northbridge).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Оперативная_память_(ОЗУ).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Материнская_плата_(Motherboard).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Внешняя_память_(ВЗУ).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Видеокарта_(Graphics_Card).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм/Ввод-вывод_(ВВ).md",
+    "чя/принципиальная схема взаимодействия компонентов эбм.md",
+    "основы програмирование/принцип работы циклов while и for.md",
+    "Основы информационных технологий/виды информационых носителей/флешка.md",
+    "Основы информационных технологий/виды информационых носителей/перфкарта.md",
+    "Основы информационных технологий/виды информационых носителей/касета.md",
+    "Основы информационных технологий/виды информационых носителей/жесткий диск.md",
+    "Основы информационных технологий/виды информационых носителей/sd-карта.md",
+    "Основы информационных технологий/виды информационых носителей/sdd.md",
+    "Основы информационных технологий/виды информационых носителей/floppy.md",
+    "Основы информационных технологий/виды информационых носителей/cd-rom.md",
     "Основы информационных технологий/xlam/git.png",
     "Основы информационных технологий/работа с git.md",
-    "Основы информационных технологий/xlam",
-    "Основы информационных технологий"
+    "Основы информационных технологий/накопители информации.md",
+    "Основы информационных технологий/zzz.md",
+    "картинки/Джон_Бэкус.jpeg",
+    "картинки/Диаграмма без названия.drawio.svg",
+    "картинки/Безымянный.png",
+    "картинки/Безымянный 1.png",
+    "картинки/274px-Peternaur.jpg",
+    "информатика/Теория_множеств.md",
+    "информатика/Комбинаторика.md",
+    "индивудуальный проект/Без названия.canvas",
+    "введегие в специальность/Без названия.canvas",
+    "zozat_amerika/SuperProjects/мой конспекты/индивудуальный проект/Без названия.canvas",
+    "zozat_amerika/SuperProjects/мой конспекты/Введение в специальность/Без названия.canvas",
+    "zozat_amerika/SuperProjects/мой конспекты/введегие в специальность/Без названия.canvas",
+    "zozat_amerika/SuperProjects/Конспекты в Obsidian/Введение в специальность/Упрощённое взаимодействие в Git.canvas"
   ]
 }
