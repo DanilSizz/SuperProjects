@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"ce689104af90c96a","x":-500,"y":-240,"width":250,"height":60,"type":"text","text":"Совершенная конкуренция"},
+		{"id":"0959004cbf259edd","x":-135,"y":-240,"width":250,"height":60,"type":"text","text":"Несовершенная конкуренция"},
+		{"id":"ea0a7a8ff25ed4e1","x":-320,"y":-380,"width":250,"height":60,"type":"text","text":"Виды конкуренции"},
+		{"id":"8c8f97735cc85117","x":-400,"y":-40,"width":250,"height":60,"type":"text","text":"Монополистическая конкуренция"},
+		{"id":"1f5c7c9f51321343","x":-100,"y":-40,"width":250,"height":60,"type":"text","text":"Олигополия"},
+		{"id":"1abc37a76ed4f0c8","x":200,"y":-40,"width":250,"height":60,"type":"text","text":"Монополия"}
+	],
+	"edges":[
+		{"id":"2b0ceb134766f446","fromNode":"ea0a7a8ff25ed4e1","fromSide":"bottom","toNode":"ce689104af90c96a","toSide":"top"},
+		{"id":"ea2299612ac51e40","fromNode":"ea0a7a8ff25ed4e1","fromSide":"bottom","toNode":"0959004cbf259edd","toSide":"top"},
+		{"id":"929b1eeeff34bc0d","fromNode":"0959004cbf259edd","fromSide":"bottom","toNode":"8c8f97735cc85117","toSide":"top"},
+		{"id":"cd329cb7d2d45881","fromNode":"0959004cbf259edd","fromSide":"bottom","toNode":"1f5c7c9f51321343","toSide":"top"},
+		{"id":"c6a36a242a225444","fromNode":"0959004cbf259edd","fromSide":"bottom","toNode":"1abc37a76ed4f0c8","toSide":"top"}
+	]
+}
