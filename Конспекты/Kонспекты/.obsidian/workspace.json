@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "63e623c655d1e9e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdbe6285b225715d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4b1c4348bc03602",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a18f1b1f9f8cf46b",
+    "type": "split",
+    "children": [
+      {
+        "id": "609cd53c8404faec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8843aa5156da7dff",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "8a2bb657d7195ef0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "d0b23468a4ba0a23",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "37e3c5a04814c8da",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6041cc7943bfaa3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9493095b332f308",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Математика/Закон сохранения импульса.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Закон сохранения импульса"
+            }
+          },
+          {
+            "id": "03f7a909d2d1ab9e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Математика/Закон сохранения импульса.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Закон сохранения импульса"
+            }
+          },
+          {
+            "id": "66ed01069f42f7c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "a945ecbbe4f65f20",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Математика/Закон сохранения импульса.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Закон сохранения импульса"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "a4b1c4348bc03602",
+  "lastOpenFiles": []
+}
