@@ -3,7 +3,7 @@ import random
 
 pygame.init()
 
-WIDTH, HEIGHT = 1980, 1080
+WIDTH, HEIGHT = 1920, 1080
 BACKGROUND_COLOR = (0, 0, 0)
 TEXT_COLOR = (0, 255, 0)
 FONT_SIZE = 35
