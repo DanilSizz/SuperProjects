@@ -4,65 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e2706915bbd6ef16",
+        "id": "54f8c6c3d11da1e5",
         "type": "tabs",
         "children": [
           {
-            "id": "a4179c309aebab94",
+            "id": "868cc63115016090",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Инфа йоу/python/19.11.24 Конструктор __init__.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "19.11.24 Конструктор __init__"
-            }
-          },
-          {
-            "id": "889d640156508cc2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
-          },
-          {
-            "id": "04baf3bd650a6790",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Инфа йоу/python/19.11.24 Конструктор __init__.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "19.11.24 Конструктор __init__"
-            }
-          },
-          {
-            "id": "0cb688959dabbc7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Инфа йоу/Основы ИТ/20.11.24 Введение в сетевые технологии.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "20.11.24 Введение в сетевые технологии"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,12 +158,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "0cb688959dabbc7a",
+  "active": "868cc63115016090",
   "lastOpenFiles": [
+    "Русский язык/20.11.24 Этимология.md",
+    "Инфа йоу/python/test.md",
     "Инфа йоу/python/19.11.24 Конструктор __init__.md",
     "Инфа йоу/Основы ИТ/20.11.24 Введение в сетевые технологии.md",
     "Инфа йоу/Основы ИТ",
-    "Русский язык/20.11.24 Этимология.md",
     "Русский язык",
     "Литература",
     "Инфа йоу/python",
