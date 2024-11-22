@@ -8,75 +8,61 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bf96430f27d04fe6",
+            "id": "a0e93e8babb3be8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Другие предметы/Математика 07.11.2024.md",
+                "file": "Основы информационных технологий/Профилактическое обслуживание.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Математика 07.11.2024"
+              "title": "Профилактическое обслуживание"
             }
           },
           {
-            "id": "e4ae4c1ed2c51b8e",
+            "id": "1c29423e95eae420",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Другие предметы/Зачет.md",
+                "file": "Python/Class в игре.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Зачет"
+              "title": "Class в игре"
             }
           },
           {
-            "id": "f326b03c609f6337",
+            "id": "550114c784f8ce08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Введение в специальность/Гибкие метадологии проектирования.md",
+                "file": "Основы информационных технологий/Введение в сетевые технологии.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Гибкие метадологии проектирования"
+              "title": "Введение в сетевые технологии"
             }
           },
           {
-            "id": "7a6976e603b1a87b",
+            "id": "f924b990ba750cfa",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "image",
               "state": {
-                "currentVersion": "1.7.6"
+                "file": "Pasted image 20241107132459.png"
               },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.6"
-            }
-          },
-          {
-            "id": "88c84e2a016c0fc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Шарики 14.11.2024.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Шарики 14.11.2024"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241107132459"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,12 +153,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Шарики 14.11.2024.md",
+                "file": "Основы информационных технологий/Профилактическое обслуживание.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Шарики 14.11.2024"
+              "title": "Исходящие ссылки из Профилактическое обслуживание"
             }
           },
           {
@@ -194,14 +180,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Turbo Pascal.md"
+                "file": "Pasted image 20241107132459.png"
               },
               "icon": "lucide-list",
-              "title": "Структура Turbo Pascal"
+              "title": "Структура Pasted image 20241107132459"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -217,20 +203,23 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "88c84e2a016c0fc0",
+  "active": "f924b990ba750cfa",
   "lastOpenFiles": [
+    "Pasted image 20241107131512.png",
+    "Python/Class в игре.md",
+    "Тест 11.11.2024.md",
     "Шарики 14.11.2024.md",
+    "Основы информационных технологий/Введение в сетевые технологии.md",
+    "Основы информационных технологий/Профилактическое обслуживание.md",
     "Введение в специальность/Оформление программной документации, выполнение программной документации.md",
     "Введение в специальность/Список заметок (Оглавление).md",
     "Введение в специальность/Средства описания языков программирования Метаязык. Bax - one.md",
     "Введение в специальность/CSS.md",
     "Введение в специальность/Turbo Pascal.md",
     "Введение в специальность/HTML И CSS.md",
-    "Тест 11.11.2024.md",
     "Другие предметы/Зачет.md",
     "Другие предметы/Математика 07.11.2024.md",
     "Pasted image 20241107132459.png",
-    "Pasted image 20241107131512.png",
     "Отдельная папка для фото/Pasted image 20241107125434.png",
     "Отдельная папка для фото/Pasted image 20241107124957.png",
     "Отдельная папка для фото/Pasted image 20241107124908.png",
@@ -247,11 +236,7 @@
     "Без названия",
     "Другие предметы/Общество 14.10.2024.md",
     "Другие предметы/Общество 08.10.md",
-    "Информатика/Компьютерные сети.md",
-    "Python/Основы ОПП.md",
     "Отдельная папка для фото/Pasted image 20241030124310.png",
-    "Основы информационных технологий/Мультимедиа.md",
-    "Индивидуальный проект/Индивидуальный проект.md",
     "Отдельная папка для фото/Pasted image 20241024113003.png",
     "Отдельная папка для фото/Pasted image 20241024112929.png",
     "Отдельная папка для фото/Pasted image 20241024112827.png",
