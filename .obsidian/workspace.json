@@ -11,11 +11,32 @@
             "id": "09e3ace5adce4aee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Конспекты в Obsidian/Информатика/Сетевые хранилища.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сетевые хранилища"
+            }
+          },
+          {
+            "id": "9325a3762934f729",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Конспекты в Obsidian/Информатика/Сетевые хранилища.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сетевые хранилища"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -35,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -50,7 +73,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -58,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -81,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Конспекты в Obsidian/Информатика/Сетевые хранилища.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +116,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Сетевые хранилища"
             }
           },
           {
@@ -97,9 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Конспекты в Obsidian/ПринципиальнаяСхемаУстройстваКомпьютера 1.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из ПринципиальнаяСхемаУстройстваКомпьютера 1"
             }
           },
           {
@@ -110,7 +143,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -118,15 +153,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Конспекты в Obsidian/Информатика/Сетевые хранилища.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Сетевые хранилища"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -138,8 +177,13 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "09e3ace5adce4aee",
+  "active": "9325a3762934f729",
   "lastOpenFiles": [
+    "Конспекты в Obsidian/ПринципиальнаяСхемаУстройстваКомпьютера 1.png",
+    "Конспекты в Obsidian/Информатика/Сетевые хранилища.md",
+    "Конспекты в Obsidian/IMG_1302.MOV",
+    "Конспекты в Obsidian/Pasted image 20240917121219.png",
+    "Конспекты в Obsidian/Введение в специальность/Оформление программной документации.md",
     "Работа с git.pptx",
     "Конспекты в Obsidian/РПО 25.09.24/logs/bootstrap_log.txt",
     "Конспекты в Obsidian/РПО 25.09.24/logs",
@@ -160,25 +204,20 @@
     "Конспекты в Obsidian/Картинки вацап/ПринципиальнаяСхемаУстройстваКомпьютера.png",
     "Конспекты в Obsidian/Картинки вацап/Принципиальная схема взаимодействия компонентов ЭВМ (ПК).md",
     "Конспекты в Obsidian/Картинки вацап/Pasted image 20240918111149.png",
-    "Конспекты в Obsidian/Картинки вацап",
     "Конспекты в Obsidian/Информатика/Измерение информации/Шенноновская энтропия.md",
     "Конспекты в Obsidian/Информатика/Измерение информации/Колмогоровская сложность.md",
-    "Конспекты в Obsidian/Информатика/Измерение информации",
     "Конспекты в Obsidian/Введение в специальность/Упрощённое взаимодействие в Git.canvas",
-    "Конспекты в Obsidian/Введение в специальность/Оформление программной документации.md",
     "Конспекты в Obsidian/Введение в специальность/ИТ-профессии.md",
     "Конспекты в Obsidian/Введение в специальность/Гибкие методологии проектирования.md",
     "Конспекты в Obsidian/Введение в специальность/Git.md",
     "Конспекты в Obsidian/Python/Основы языка/Цикл for.md",
     "Конспекты в Obsidian/ПринципиальнаяСхемаУстройстваКомпьютера.png",
     "Конспекты в Obsidian/ПринципиальнаяСхемаУстройстваКомпьютера 2.png",
-    "Конспекты в Obsidian/ПринципиальнаяСхемаУстройстваКомпьютера 1.png",
     "Конспекты в Obsidian/Безымянная Kanban-доска.md",
     "Конспекты в Obsidian/Без названия.md",
     "Конспекты в Obsidian/Без названия.canvas",
     "Конспекты в Obsidian/Без названия 1.md",
     "Конспекты в Obsidian/Без названия 1.canvas",
-    "Конспекты в Obsidian/Pasted image 20240917121219.png",
     "Конспекты в Obsidian — копия/Введение в специальность/ИТ-профессии.md",
     "Взаимодействие со списками в Python.md",
     "Конспекты в Obsidian — копия/Введение в специальность/Гибкие методологии проектирования.md",
