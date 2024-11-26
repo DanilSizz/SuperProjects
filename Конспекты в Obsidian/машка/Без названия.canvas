@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"ae35af2da76ca403","type":"text","text":"пользователь","x":-840,"y":-290,"width":200,"height":60},
+		{"id":"3466e9d7595a4c51","type":"text","text":"Хранилище Обсидиан","x":-580,"y":-290,"width":180,"height":60},
+		{"id":"e3e971ebe4505bef","x":-340,"y":-340,"width":250,"height":160,"type":"text","text":"Скопировать или переместить папку с заметками в папку вашего локального репозитория"},
+		{"id":"e8da9b87bada5122","type":"text","text":"Выводим через Commit или Pushing","x":0,"y":-290,"width":250,"height":60},
+		{"id":"b54fc0942f892246","x":320,"y":-315,"width":250,"height":110,"type":"text","text":"Готово, файлы из обсидиана у вас в репозитории."}
+	],
+	"edges":[
+		{"id":"6df40164bddc4a7f","fromNode":"ae35af2da76ca403","fromSide":"right","toNode":"3466e9d7595a4c51","toSide":"left"},
+		{"id":"1c4387a6ecbcc6e2","fromNode":"3466e9d7595a4c51","fromSide":"right","toNode":"e3e971ebe4505bef","toSide":"left"},
+		{"id":"738c96ac4b3dd86b","fromNode":"e3e971ebe4505bef","fromSide":"right","toNode":"e8da9b87bada5122","toSide":"left"},
+		{"id":"1c61a65ef1c8df37","fromNode":"e8da9b87bada5122","fromSide":"right","toNode":"b54fc0942f892246","toSide":"left"}
+	]
+}
