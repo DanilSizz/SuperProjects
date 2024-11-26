@@ -1,5 +1,12 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showRibbon": false
+  "showRibbon": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
