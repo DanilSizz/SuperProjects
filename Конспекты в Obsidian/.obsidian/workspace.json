@@ -4,24 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "06f63f60c0bd3686",
+        "id": "f0950cc3b8690660",
         "type": "tabs",
         "children": [
           {
-            "id": "c8e3c508131e8a2c",
+            "id": "b7951010c7baca57",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/self и init.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "self и init"
+              "title": "Новая вкладка"
+            }
+          },
+          {
+            "id": "96e362fd64d9cea2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,10 +180,11 @@
       "obsidian-kanban:Создать новую доску": false
     }
   },
-  "active": "c8e3c508131e8a2c",
+  "active": "96e362fd64d9cea2",
   "lastOpenFiles": [
-    "Основы информационных технологий/Шарики.md",
     "Python/self и init.md",
+    "Основы информационных технологий/OSI TCP IP  устройства и технологии.md",
+    "Основы информационных технологий/Шарики.md",
     "Основы информационных технологий/Профилактическое обслуживание.md",
     "Введение в специальность/Гибкие методологии проектирования.md",
     "Введение в специальность/HTML.md",
@@ -206,7 +214,6 @@
     "Таблица.md",
     "Введение в специальность/Оформление программной документации.md",
     "профессия.md",
-    "профессии.md",
     "Основы информационных технологий/Накопители информации",
     "Python/PyGame",
     "PyGame",
